@@ -10,8 +10,12 @@ Description : A simple HTML file.
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Comprehensive HTML Page</title>
-	<!--Copy and paste remaining tags of the head section from images.html file.-->
+    <title>Comprehensive HTML Examples</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="A comprehensive HTML example with various tags">
+    <meta name="keywords" content="HTML, Web Development, Examples">
+    <meta name="author" content="Your Name">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
 
@@ -31,12 +35,7 @@ Description : A simple HTML file.
         <article>
             <h2>Article Title</h2>
 			
-			<p>This is a paragraph in an article section. It demonstrates text formatting, like bold, italic, and marked text.</p>
-			<!-- To emphasize specific words in the paragraph, apply appropriate HTML tags: 
-			<strong> or <b> for bold text, 
-			<em> or <i> for italic text, and
-			<mark> for highlighted text. 
-			Ensure each formatting style is correctly demonstrated on the respective words. -->
+			<p>This is a paragraph in an article section. It demonstrates text formatting, like <b>bold</b>, <i>italic</i>, and <mark>marked</mark> text.</p>
 
             <p>Here's a quotation:</p>
             <blockquote cite="http://example.com">
@@ -52,13 +51,21 @@ Description : A simple HTML file.
         <ol>
             <li>First item</li>
             <li>Second item</li>
-			<!--Make a sub-ordered list here-->
+            <ol>
+                <li>Second-First item</li>
+                <li>Second-Second item</li>
+                <li>Second-Third item</li>
+            </ol>
             <li>Third item</li>
         </ol>
         <p>Unordered List:</p>
         <ul>
             <li>Bullet item</li>
-			<!--Make a sub-unordered list here-->
+            <ul>
+                <li>First-Bullet item</li>
+                <li>Second-Another bullet item</li>
+                <li>Third-Yet another bullet item</li>
+            </ul>
             <li>Another bullet item</li>
             <li>Yet another bullet item</li>
         </ul>
@@ -74,7 +81,7 @@ Description : A simple HTML file.
             <dt>HTML</dt>
             <dd>Hypertext Markup Language.</dd>
 			<dt>CSS</dt>
-            <dd><!--Add CSS definition here--></dd>
+            <dd>Cascading Style Sheets</dd>
         </dl>
 		
         
@@ -104,21 +111,22 @@ Description : A simple HTML file.
 			<tfoot>
 				<tr>
 					<td>Total</td>
-					<td><!--Put column total here--></td>
-					<td><!--Put column total here--></td>
+					<td>$3800</td>
+					<td>$2700</td>
 				</tr>
 			</tfoot>
         </table>
 		
 		<h3>Images:</h3>
         <p>Adding an image:</p>
-        <img src="example.jpg" alt="Example Image"> <!--Fix addressing issue-->
+        <img src="images/example.jpg" alt="Example Image"> <!--Fix addressing issue-->
     </section>
 
     <footer>
-        <p>Footer content, like contact info or copyrights.</p>
-		<!--Comment out the above p tag and add a new p tag under this comment.
+        <!--<p>Footer content, like contact info or copyrights.</p>
+		    Comment out the above p tag and add a new p tag under this comment.
 			The new p tag must contain {Copy right + your names}.-->	
+        <p>Copy right Cody Casselman, Keeryn Johnson</p>
     </footer>
 </body>
 </html>
