@@ -1,0 +1,124 @@
+<!--
+=========================================================
+Name        : news.html
+Assignment  : Lab 2 Exercise C
+Author(s)   : Mahdi Ansari, William Arthur Philip Louis
+Submission  : May 21, 2030
+Description : A simple HTML file.
+=========================================================
+-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Comprehensive HTML Page</title>
+	<!--Copy and paste remaining tags of the head section from images.html file.-->
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to My HTML Page</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#section1">Section 1</a></li>
+            <li><a href="#section2">Section 2</a></li>
+            <li><a href="#section3">Section 3</a></li>
+        </ul>
+    </nav>
+
+    <section id="section1">
+        <article>
+            <h2>Article Title</h2>
+			
+			<p>This is a paragraph in an article section. It demonstrates text formatting, like bold, italic, and marked text.</p>
+			<!-- To emphasize specific words in the paragraph, apply appropriate HTML tags: 
+			<strong> or <b> for bold text, 
+			<em> or <i> for italic text, and
+			<mark> for highlighted text. 
+			Ensure each formatting style is correctly demonstrated on the respective words. -->
+
+            <p>Here's a quotation:</p>
+            <blockquote cite="http://example.com">
+                This is a blockquote, a section that quotes content from another source.
+            </blockquote>
+            <p>The article section typically contains text, images, and other content that forms an independent part of a document.</p>
+        </article>
+    </section>
+
+    <section id="section2">
+        <h2>List Examples</h2>
+        <p>Ordered List:</p>
+        <ol>
+            <li>First item</li>
+            <li>Second item</li>
+			<!--Make a sub-ordered list here-->
+            <li>Third item</li>
+        </ol>
+        <p>Unordered List:</p>
+        <ul>
+            <li>Bullet item</li>
+			<!--Make a sub-unordered list here-->
+            <li>Another bullet item</li>
+            <li>Yet another bullet item</li>
+        </ul>
+    </section>
+
+    <section id="section3">
+        <h2>Additional Elements</h2>
+        <p>This section includes a variety of additional HTML elements:</p>
+		
+		<h3>Definition Lists:</h3>
+		<p>A list where each item has a term and definition.</p>
+        <dl>            
+            <dt>HTML</dt>
+            <dd>Hypertext Markup Language.</dd>
+			<dt>CSS</dt>
+            <dd><!--Add CSS definition here--></dd>
+        </dl>
+		
+        
+		<h3>Tables:</h3>
+		<p>Here is an example of a table:</p>
+        <table border="1">
+			<caption>Monthly Sales Report</caption>
+			<thead>
+				<tr>
+					<th>Month</th>
+					<th>Sales</th>
+					<th>Expenses</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>January</td>
+					<td>$2000</td>
+					<td>$1500</td>
+				</tr>
+				<tr>
+					<td>February</td>
+					<td>$1800</td>
+					<td>$1200</td>
+				</tr>				
+			</tbody>
+			<tfoot>
+				<tr>
+					<td>Total</td>
+					<td><!--Put column total here--></td>
+					<td><!--Put column total here--></td>
+				</tr>
+			</tfoot>
+        </table>
+		
+		<h3>Images:</h3>
+        <p>Adding an image:</p>
+        <img src="example.jpg" alt="Example Image"> <!--Fix addressing issue-->
+    </section>
+
+    <footer>
+        <p>Footer content, like contact info or copyrights.</p>
+		<!--Comment out the above p tag and add a new p tag under this comment.
+			The new p tag must contain {Copy right + your names}.-->	
+    </footer>
+</body>
+</html>
